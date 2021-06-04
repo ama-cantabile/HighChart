@@ -17,7 +17,7 @@ let chartData = {
 
 document.addEventListener('DOMContentLoaded', async function () {
 
-  const url = '../Assignment1/data/movie_data.json';
+  const url = '../HighChart/data/movie_data.json';
 
   //Get the data using fetch and add it to the series
   chartData.series = await getChartData(url);
